@@ -17,15 +17,22 @@ img {
 /* /GENERAL */
 
 /* UTILITY */
+.bg-color-btn {
+  background-color: #4a4a4a;
+  border: none;
+}
 .btn {
   padding: 5px;
   border-radius: 5px;
   color: white;
-  background-color: #4a4a4a;
 }
 
 .d-flex {
   display: flex;
+}
+
+.active {
+  color: #4bc800;
 }
 /* /UTILITY */
 
@@ -49,4 +56,46 @@ header {
 /* /MAIN */
 
 /* FOOTER */
+footer {
+  height: 90px;
+  background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li .action {
+  padding: 5px;
+  text-align: center;
+
+}
+
+footer li .action i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+footer li .open {
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.action p, .open i {
+  font-size: 0.8rem;
+}
+
+footer .menu-center li {
+  margin-left: 10px;
+}
+
+.button-footer button {
+  height: 90px;
+  padding: 0 20px;
+  color: red;
+}
 /* /FOOTER */
