@@ -17,6 +17,10 @@ img {
 /* /GENERAL */
 
 /* UTILITY */
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
 .bg-color-btn {
   background-color: #4a4a4a;
   border: none;
@@ -46,13 +50,41 @@ header {
   justify-content: flex-end;
 }
 
-.content-header .view span::before {
-  content: '';
-
+.content-header .view button:first-child::before {
+  font-family: "FontAwesome";
+  content: "\f00a";
 }
 /* /HEADER */
 
 /* MAIN */
+main {
+  height: calc(100vh - 160px);
+  overflow: auto;
+}
+
+main .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main .person {
+  width: calc(100% / 7 - 6px);
+  position: relative;
+  margin: 5px 3px;
+  min-width: 200px;
+}
+
+.person .status-name{
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  padding: 8px;
+  background-color: rgba(101,114,124, .6);
+}
+
+.person .status-name span {
+  font-size: 0.8rem;
+}
 /* /MAIN */
 
 /* FOOTER */
@@ -71,7 +103,6 @@ footer ul{
 footer li .action {
   padding: 5px;
   text-align: center;
-
 }
 
 footer li .action i {
