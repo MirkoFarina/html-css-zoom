@@ -1,0 +1,52 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+/* /GENERAL */
+
+/* UTILITY */
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #4a4a4a;
+}
+
+.d-flex {
+  display: flex;
+}
+/* /UTILITY */
+
+/* HEADER */
+header {
+  height: 70px;
+  padding: 5px 5px;
+}
+
+.content-header {
+  justify-content: flex-end;
+}
+
+.content-header .view span::before {
+  content: '';
+
+}
+/* /HEADER */
+
+/* MAIN */
+/* /MAIN */
+
+/* FOOTER */
+/* /FOOTER */
